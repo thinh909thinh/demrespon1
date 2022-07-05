@@ -1,0 +1,153 @@
+.dis-pc {
+    display: none !important;
+}
+
+/* mobie  tablet*/
+@media(max-width:1023px) {}
+
+/* tablet 
+ */
+@media(min-width:740px) and(max-width :1023px) {}
+
+/* mb  */
+@media(max-width:739px) {
+    .headerup {
+        flex-wrap: wrap;
+    }
+
+    .logohead {
+        order: 2;
+        width: 20%;
+    }
+
+    .logohead img {
+
+        width: 100%;
+    }
+
+    .seach {
+        order: 3;
+        flex: 1;
+        margin: 0 5px;
+    }
+
+    .phone {
+        order: 1;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5px;
+    }
+    .fire{
+        width: 30%;
+    }
+    .phone1{
+        width: 40%;
+    }
+
+    .title2 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .dis-mobile {
+        display: none !important;
+    }
+    section{
+        margin-top: 0;
+    }
+    .silde-main {
+        width: 100%;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        height: 402px;
+    }
+
+    .home-deal {
+        margin: 0;
+        border-radius: 0;
+
+    }
+
+    .product h2 {
+        margin-left: 0;
+    }
+
+    .product a p {
+        margin-right: 0;
+    }
+
+    .hot-deal {
+        height: 80px;
+    }
+
+    .xx {
+        width: 100%;
+    }
+
+    .fa-angle-double-right:before,
+    .fa-angles-right:before {
+        display: none;
+    }
+
+    .iteam-mega {
+        margin-top: 0;
+        height: 710px;
+        flex-wrap: wrap;
+        height: 620px;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .item {
+        width: 49%;
+        margin-bottom: 10px;
+
+    }
+
+    .count {
+        margin-top: 10px;
+    }
+
+    .list-iteam {
+        width: 33%;
+    }
+
+    .home-product {
+        margin-top: 80px;
+    }
+
+    .list-product {
+        width: 100%;
+        height: 606px;
+    }
+
+    .titles {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    .items {
+        min-width: 49%;
+    }
+
+    .countdown-number {
+        width: 60px;
+    }
+
+    .countdown-number span {
+        font-size: 13px;
+    }
+
+}
